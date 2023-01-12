@@ -1,0 +1,10 @@
+Package: ZLtools
+Type: Package
+Title: tools which zhu lei often use in R
+Version: 0.1.0
+Author: Lei Zhu
+Maintainer: Lei Zhu <zhulei_evan@126.com>
+Description: tools which zhu lei often use in R
+License: GLP
+Encoding: UTF-8
+LazyData: true
