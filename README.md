@@ -1,4 +1,4 @@
 # ZLtools install
-install.packages("devtools")
-library(devtools)
-devtools::install_github("Zhuleievan/ZLtools")
+install.packages("devtools")  
+library(devtools)  
+devtools::install_github("Zhuleievan/ZLtools")  
