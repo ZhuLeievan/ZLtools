@@ -4,6 +4,7 @@
 \usage{
 flattenCPMatrix.zl(cormat, pmat)
 flattenCorrMatrix.zl(cormat)
+12234567
 }
 \description{
 used to make two matrix into one, and cor and p together
