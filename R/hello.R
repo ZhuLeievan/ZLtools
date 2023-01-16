@@ -13,7 +13,7 @@
 #   Check Package:             'Ctrl + Shift + E'
 #   Test Package:              'Ctrl + Shift + T'
 
-flattenCPMatrix.zl <- function(cormat, pmat) {
+zl.flattenCPMatrix <- function(cormat, pmat) {
   ut <- upper.tri(cormat)
   data.frame(
     row = rownames(cormat)[row(cormat)[ut]],
@@ -23,7 +23,7 @@ flattenCPMatrix.zl <- function(cormat, pmat) {
   )
 }
 
-flattenCorrMatrix.zl <- function(cormat) {
+zl.flattenCorrMatrix <- function(cormat) {
   ut <- upper.tri(cormat)
   data.frame(
     row = rownames(cormat)[row(cormat)[ut]],
