@@ -1,7 +1,7 @@
 #from Robert I. Kabacoff
 # Nonparametric pairwise multiple comparisons using the Wilcoxon Signed Rank Test
 # Probability values are adjusted using the p.adjust function
-wmc <- function(formula, data, exact=FALSE, sort=TRUE, method="holm"){
+zl.wmc <- function(formula, data, exact=FALSE, sort=TRUE, method="holm"){
 
   # setup
   df <- model.frame(formula, data)
